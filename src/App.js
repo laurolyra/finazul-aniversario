@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import * as app from './styled/app';
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +19,15 @@ function App() {
         >
           Learn React
         </a>
+        <div className="container">
+          <h1>Container</h1>
+          <div className="row">
+            <app.TextHeader className="col-3">coluna</app.TextHeader>
+            <div className="col-3">coluna</div>
+            <div className="col-3">coluna</div>
+            <div className="col-3">coluna</div>
+          </div>
+        </div>
       </header>
     </div>
   );
