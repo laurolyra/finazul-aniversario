@@ -1,16 +1,21 @@
 .hero-container {
-  padding-top: 100px;
-  text-align:center;
+  margin-top: 100px;
+  min-height: 716px;
+  text-align: center;
+  background: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
-.hero-container h2 {
-  font-size: 60px;
+.hero-container .title {
+  font-size: 48px;
   color: #2e3266;
   font-weight: 700;
 }
 
 .hero-container h3 {
-  font-size: 42px;
+  font-size: 32px;
   color: #4e4f50;
   font-weight: 700;
 }

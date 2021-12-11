@@ -13,7 +13,7 @@ const Header = () => (
             <img src={finazulLogo} alt="logo Finazul"></img>
           </a>
         </div>
-        <div className="d-flex align-items-center col-5 justify-content-around">
+        <div className="d-flex align-items-center col-4 justify-content-between">
           <OrangeBox url="http://www.finazul.com.br" />
           <a href="./">
             <img
