@@ -1,5 +1,10 @@
-.orange-box, .orange-box:hover {
+.orange-box,
+.orange-box:hover {
   border-radius: 20px;
   background-color: #f4511e;
+}
+.orange-box h2 {
+  font-size: 28px;
   color: #ffffff;
-};
+  font-weight: 600;
+}

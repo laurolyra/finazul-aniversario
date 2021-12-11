@@ -1,6 +1,6 @@
 import React from "react";
-import finazulLogo from "./images/finazul-logo.png";
-import menuIcon from "./images/menu-icon.png";
+import finazulLogo from "../images/finazul-logo.png";
+import menuIcon from "../images/menu-icon.png";
 import OrangeBox from "../common/OrangeBox";
 import "./styles.css";
 
