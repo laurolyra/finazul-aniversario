@@ -1,0 +1,18 @@
+.concept-container {
+  color: #2e3266;
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
+  background-size: 18rem;
+  background-position-y: bottom;
+  background-position-x: 4rem;
+}
+
+.concept-container  .container h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 50px;
+}
+
+.concept-container h3 {
+  font-size: 28px;
+}

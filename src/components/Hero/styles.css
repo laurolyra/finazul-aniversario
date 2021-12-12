@@ -9,13 +9,14 @@
 }
 
 .hero-container .title {
-  font-size: 48px;
+  font-size: 44px;
   color: #2e3266;
   font-weight: 700;
 }
 
 .hero-container h3 {
-  font-size: 32px;
+  font-size: 26px;
   color: #4e4f50;
   font-weight: 700;
+  margin-bottom:0
 }
