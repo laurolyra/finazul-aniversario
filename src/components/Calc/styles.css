@@ -1,0 +1,38 @@
+.calc-container {
+  background-color: #2e3266;
+}
+
+h2,
+h3 {
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+
+.white-board {
+  min-height: 240px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
+  color: #2e3266;
+}
+
+.white-board h4,
+.white-board a,
+.white-board h3 {
+  color: #2e3266;
+}
+
+.white-board input {
+  border-radius: 10px;
+  border: 2px solid #424242;
+}
+
+.white-board button {
+  min-width: 6rem;
+  background-color: #0580b7;
+  color: #FFFFFF
+}
