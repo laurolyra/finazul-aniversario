@@ -1,0 +1,71 @@
+.how-to-container {
+  background-color: #ffffff;
+  height: 52rem;
+}
+
+.previous-text {
+  color: #2e3266;
+  font-weight: 700;
+}
+
+.how-to-container .video-container h3 {
+  font-size: 30px;
+  color: #4e4f50;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.shadow-box {
+  width: 50rem;
+  height: 21rem;
+  border-radius: 20px;
+  filter: drop-shadow(0px 3px 13.5px rgba(0,0,0,0.35));
+  background-color: #ffffff;
+}
+
+.shadow-box img {
+  height: 19rem
+}
+
+.video-box {
+  border-radius: 20px;
+  filter: drop-shadow(0px 3px 13.5px rgba(0,0,0,0.35));
+  background-color: #ffffff;
+  width: 40rem;
+}
+
+.slick-arrow, .slick-arrow::before {
+  display:none
+}
+
+.how-to-container .topics-board {
+  font-size: 35px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  min-height: 460px;
+}
+
+button {
+  background-color: #ffffff;
+  text-align: center;
+  width: 149px;
+  height: 149px;
+  border-radius: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: #2d3165;
+  font-weight: bold;
+  text-decoration: none;
+  transform: scale(0.5);
+  padding-bottom: 2rem;
+}
+
+button:disabled {
+  color: #9d9d9d;
+}
