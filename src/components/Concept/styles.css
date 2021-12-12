@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: 21rem;
   background-position-y: bottom;
-  background-position-x: 2rem;
+  background-position-x: 10rem;
 }
 
 .concept-container  .container h2 {
@@ -20,5 +20,9 @@
 }
 
 .concept-container .explanation {
-  left: 40%
+  left: 46%;
+}
+
+.concept-container .explanation-column {
+  height: 28rem
 }

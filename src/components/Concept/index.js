@@ -5,12 +5,12 @@ import OrangeBox from "../common/OrangeBox";
 const Concept = () => (
   <div className="concept-container mt-3">
     <div className="container position-relative">
-      <div className="row">
+      <div className="row pb-2">
         <h2>O que é o empréstimo?</h2>
         <h2>Quem pode contratar?</h2>
       </div>
-      <div className="pt-3 position-absolute justify-content-end text-start mt-2 explanation">
-        <div className="d-flex flex-column justify-content-around text-start">
+      <div className="pt-3 row position-absolute justify-content-end text-start explanation">
+        <div className="d-flex flex-column justify-content-between text-start explanation-column">
           <div>
             <h3>
               Modalidade de empréstimo, autorizado pela lei 13.313/16, destinado
@@ -21,6 +21,8 @@ const Concept = () => (
               </strong>{" "}
               desde que tenha optado pela modalidade saque-aniversário.
             </h3>
+          </div>
+          <div>
             <h3>
               É possível antecipar até 5 parcelas anuais do seu
               saque-aniversário sendo o saldo mínimo do FGTS de apenas R$ 300,00

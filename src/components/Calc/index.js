@@ -14,15 +14,15 @@ const Calc = () => (
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="white-board col-8 d-flex flex-column align-items-center justify-content-around py-2">
-          <h3 className="dark-text-header pt-3">
+        <div className="white-board col-6 d-flex flex-column align-items-center justify-content-around py-2">
+          <h4 className="pt-2">
             <strong>Informe seu saldo do FGTS</strong>
-          </h3>
-          <h4>
-            Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
           </h4>
+          <h5>
+            Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
+          </h5>
           <input className="col-6 p-2 text-center" placeholder="R$0,00" />
-          <button className="btn btn-primary p-2 rounded-3">Avançar</button>
+          <button className="btn btn-primary p-2 rounded-3"><strong>Avançar</strong></button>
         </div>
         <h4 className="pt-3">*Saldo do FGTS mínimo para contratar de R$ 300,00.</h4>
       </div>
