@@ -1,14 +1,8 @@
 .concept-container {
   color: #2e3266;
-  height: 40rem;
-  background-image: url('./background.png');
-  background-repeat: no-repeat;
-  background-size: 21rem;
-  background-position-y: bottom;
-  background-position-x: 4rem;
 }
 
-.concept-container  .container h2 {
+.concept-container .container h2 {
   font-weight: 700;
   margin: 0;
   font-size: 50px;
@@ -16,9 +10,9 @@
 
 .concept-container h3 {
   font-size: 28px;
-  color: #4e4f50
+  color: #4e4f50;
 }
 
 .concept-container .explanation-column {
-  height: 28rem
+  height: 28rem;
 }

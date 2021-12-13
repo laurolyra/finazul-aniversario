@@ -1,7 +1,7 @@
 .why-contract-container {
   background-color: #0580b7;
   color: #ffffff;
-  height: 48rem;
+  padding: 4rem 0;
 }
 
 .why-contract-container h2 {
@@ -15,5 +15,5 @@
   color: #ffffff;
   font-weight: 600;
   text-align: left;
-  min-height: 460px;
+  /* min-height: 460px; */
 }

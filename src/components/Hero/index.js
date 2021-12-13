@@ -4,7 +4,7 @@ import OrangeBox from "../common/OrangeBox";
 
 const Hero = () => (
   <section className="hero-container d-flex">
-    <div className="container d-flex flex-column justify-content-center"> 
+    <div className="container d-flex flex-column justify-content-center">
       <div className="col-5 text-start d-flex flex-column h-75 justify-content-around">
         <h2 className="title">Dinheiro parado no FGTS?</h2>
         <h3>
@@ -18,7 +18,7 @@ const Hero = () => (
         </h4>
         <h4 className="">É simples, rápido e digital.</h4>
         <div className="col-10">
-          <OrangeBox />
+          <OrangeBox url="http://www.finazul.com.br" />
         </div>
       </div>
     </div>

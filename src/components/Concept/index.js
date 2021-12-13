@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import OrangeBox from "../common/OrangeBox";
+import background from "./background.png";
 
 const Concept = () => (
   <div className="concept-container mt-3">
@@ -9,19 +10,20 @@ const Concept = () => (
         <h2>O que é o empréstimo?</h2>
         <h2>Quem pode contratar?</h2>
       </div>
-      </div>
 
-      
-      <div className="py-3 row justify-content-end text-start explanation mw-100">
-        <div className="col-7">
+      <div className="pt-3 row text-start explanation">
+        <div className="col-12 col-md-5">
+          <img className="img-fluid" src={background} alt="CTPS" />
+        </div>
+        <div className="col-12 col-md-7">
           <div className="d-flex flex-column justify-content-between text-start explanation-column">
             <div>
               <h3>
                 Modalidade de empréstimo, autorizado pela lei 13.313/16,
                 destinado a{" "}
                 <strong>
-                  trabalhador com carteira assinada (CLT) com idade a partir
-                  de 18 anos e saldo no FGTS
+                  trabalhador com carteira assinada (CLT) com idade a partir de
+                  18 anos e saldo no FGTS
                 </strong>{" "}
                 desde que tenha optado pela modalidade saque-aniversário.
               </h3>
@@ -33,11 +35,11 @@ const Concept = () => (
                 300,00 para você poder contratar.
               </h3>
             </div>
-            <OrangeBox />
+            <OrangeBox url="http://www.finazul.com.br" />
           </div>
         </div>
       </div>
-      
+    </div>
   </div>
 );
 
