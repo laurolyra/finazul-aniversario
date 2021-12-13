@@ -18,3 +18,7 @@
   color: #2e3266;
   text-align: center;
 }
+
+.dropdown-boxes-container {
+  min-height: 15rem;
+}

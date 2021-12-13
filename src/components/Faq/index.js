@@ -15,8 +15,11 @@ const Faq = () => (
           <img src={faqImage} alt="faq image" />
         </div>
       </div>
-      <DropdownBox />
-      <h1 className="mb-0">Faq</h1>
+      <div className="pb-3 dropdown-boxes-container d-flex flex-column justify-content-around">
+        <DropdownBox />
+        <DropdownBox />
+        <DropdownBox />
+      </div>
     </div>
   </div>
 );
