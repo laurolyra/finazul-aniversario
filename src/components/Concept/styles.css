@@ -1,11 +1,11 @@
 .concept-container {
   color: #2e3266;
-  min-height: 620px;
+  height: 40rem;
   background-image: url('./background.png');
   background-repeat: no-repeat;
   background-size: 21rem;
   background-position-y: bottom;
-  background-position-x: 10rem;
+  background-position-x: 4rem;
 }
 
 .concept-container  .container h2 {
@@ -17,10 +17,6 @@
 .concept-container h3 {
   font-size: 28px;
   color: #4e4f50
-}
-
-.concept-container .explanation {
-  left: 46%;
 }
 
 .concept-container .explanation-column {

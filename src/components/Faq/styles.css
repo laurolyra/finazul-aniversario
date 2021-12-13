@@ -1,0 +1,20 @@
+.faq-container {
+  background-color: #e5effc;
+}
+
+.faq-container .header-image {
+  height: 36rem;
+}
+
+.header-image h2 {
+  font-size: 32px;
+  color: #0580b7;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-image h3 {
+  font-size: 28px;
+  color: #2e3266;
+  text-align: center;
+}

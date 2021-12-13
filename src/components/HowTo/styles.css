@@ -1,11 +1,12 @@
 .how-to-container {
   background-color: #ffffff;
-  height: 52rem;
+  height: 90rem;
 }
 
 .previous-text {
   color: #2e3266;
   font-weight: 700;
+  font-size: 50px;
 }
 
 .how-to-container .video-container h3 {
@@ -28,15 +29,34 @@
   height: 19rem
 }
 
+.how-to-container .how-to-block {
+  height: 30rem;
+  justify-content: space-around;
+}
+
+.how-to-container .brand-block {
+  height: 24rem;
+  justify-content: space-around;
+}
+
+.brand-block h3 {
+  font-size: 32px;
+  color: #0580b7;
+  font-weight: 700;
+}
+
+.brand-block h4 {
+  font-size: 24px;
+  color: #2e3266;
+  font-weight: 600;
+  text-align: center;
+}
+
 .video-box {
   border-radius: 20px;
   filter: drop-shadow(0px 3px 13.5px rgba(0,0,0,0.35));
   background-color: #ffffff;
   width: 40rem;
-}
-
-.slick-arrow, .slick-arrow::before {
-  display:none
 }
 
 .how-to-container .topics-board {
@@ -48,7 +68,7 @@
   min-height: 460px;
 }
 
-button {
+.how-to-container button {
   background-color: #ffffff;
   text-align: center;
   width: 149px;
@@ -66,6 +86,16 @@ button {
   padding-bottom: 2rem;
 }
 
-button:disabled {
+.how-to-container button:disabled {
   color: #9d9d9d;
+}
+
+/* .image-line {
+  max-height: 19rem;
+} */
+
+.image-line img {
+  width: auto;
+  max-width: 15rem;
+  height: 6rem;
 }

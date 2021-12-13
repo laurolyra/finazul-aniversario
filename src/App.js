@@ -5,6 +5,7 @@ import Calc from './components/Calc';
 import Concept from './components/Concept';
 import WhyContract from './components/WhyContract';
 import HowTo from './components/HowTo';
+import Faq from './components/Faq';
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Concept />
       <WhyContract />
       <HowTo />
+      <Faq />
     </div>
   );
 }
