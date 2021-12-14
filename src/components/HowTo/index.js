@@ -38,10 +38,10 @@ const HowTo = () => {
         <div className="row pb-3">
           <div className="shadow-box m-auto p-2">
             <div className="container justify-content-center d-flex">
-              <div className="col-4">
+              <div className="col-7">
                 <img src={mobile} alt="telefone" />
               </div>
-              <div className="instructions col-8 d-flex flex-column justify-content-around">
+              <div className="instructions col-5 d-flex flex-column justify-content-around">
                 <Slider {...settings} ref={sliderRef}>
                   <div>
                     <h3>

@@ -25,8 +25,8 @@ const WhyContract = () => (
           <Topic imgSrc={calc} text="O melhor empréstimo para você." />
         </div>
       </div>
-      <div className="row justify-content-center">
-        <OrangeBox url="http://www.finazul.com.br" />
+      <div className="row justify-content-center m-auto">
+        <OrangeBox/>
       </div>
     </div>
   </div>

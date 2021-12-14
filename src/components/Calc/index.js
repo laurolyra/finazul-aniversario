@@ -56,7 +56,7 @@ const Calc = () => {
         </div>
 
         <div className="row justify-content-center mb-3">
-          <div className=" white-board col-6">
+          <div className=" white-board col-10">
             <Slider className="d-flex py-2" {...settings} ref={whiteboardRef}>
               <div>
                 <h3 className="py-3">

@@ -12,10 +12,10 @@ const Concept = () => (
       </div>
 
       <div className="pt-3 row text-start flex-column-reverse flex-md-row">
-        <div className="col-12 col-md-5">
+        <div className="col-3 col-md-5 align-self-end">
           <img className="img-fluid" src={background} alt="CTPS" />
         </div>
-        <div className="col-12 col-md-7 py-4 align-self-center">
+        <div className="col-9 col-md-7 py-4 align-self-center">
           <div className="d-flex flex-column justify-content-center text-start">
             <div className="mb-3">
               <h3>
@@ -36,7 +36,7 @@ const Concept = () => (
               </h3>
             </div>
           </div>
-            <OrangeBox url="http://www.finazul.com.br" />
+            <OrangeBox/>
         </div>
       </div>
     </div>

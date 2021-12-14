@@ -14,7 +14,7 @@ const Header = () => (
           </a>
         </div>
         <div className="d-flex align-items-center col-3 justify-content-around">
-          <OrangeBox url="http://www.finazul.com.br" />
+          <OrangeBox/>
           <a href="./">
             <img
               className="menu-icon"
