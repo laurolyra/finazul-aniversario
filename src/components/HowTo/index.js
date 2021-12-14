@@ -122,9 +122,7 @@ const HowTo = () => {
             <img className="pb-2" src={cetelem} alt="banco pan" />
             <img className="pb-2" src={bmg} alt="banco pan" />
           </div>
-
-          {/* <div className="row mw-100 justify-content-center image-line col-8">
-        </div> */}
+          
         </div>
       </div>
     </div>
