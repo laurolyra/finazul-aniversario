@@ -11,12 +11,12 @@ const Concept = () => (
         <h2>Quem pode contratar?</h2>
       </div>
 
-      <div className="pt-3 row text-start explanation flex-">
+      <div className="pt-3 row text-start flex-column-reverse flex-md-row">
         <div className="col-12 col-md-5">
           <img className="img-fluid" src={background} alt="CTPS" />
         </div>
-        <div className="col-12 col-md-7 py-4">
-          <div className="d-flex flex-column justify-content-center text-start explanation-column">
+        <div className="col-12 col-md-7 py-4 align-self-center">
+          <div className="d-flex flex-column justify-content-center text-start">
             <div className="mb-3">
               <h3>
                 Modalidade de empréstimo, autorizado pela lei 13.313/16,

@@ -12,7 +12,7 @@ const Contact = () => (
       </div>
 
       <div className="row">
-        <div className="col-6 m-auto pb-4">
+        <div className="col-9 m-auto pb-4">
           <div className="row whatsapp-box align-items-center">
             <div className="col-7 p-3">
               <h4 className="m-0">

@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const OrangeBox = ({ url }) => (
-  <a className="orange-box" href={url}>
+  <a className="orange-box" href="#calc-box">
     <h2 className="mb-0 orange-box text-center text-decoration-none p-3">
       Simule já!
     </h2>

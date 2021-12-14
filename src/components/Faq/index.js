@@ -19,7 +19,7 @@ const Faq = () => (
           <h3>Todas as respostas para as suas dúvidas você encontra aqui</h3>
         </div>
         <div className="col-8 col-md-6">
-          <img className="image-fluid" src={faqImage} alt="faq image" />
+          <img className="image-fluid mw-100" src={faqImage} alt="faq image" />
         </div>
       </div>
       <div className="pb-3 d-flex flex-column justify-content-around">
