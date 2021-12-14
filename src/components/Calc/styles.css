@@ -4,10 +4,17 @@
 }
 
 .calc-container h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
 }
 
+.calc-container h3 {
+  font-size: 32px;
+}
+
+.calc-container h4 {
+  font-size: 24px;
+}
 
 .white-board {
   min-height: 240px;

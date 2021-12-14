@@ -5,14 +5,10 @@
 .concept-container .container h2 {
   font-weight: 700;
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .concept-container h3 {
-  font-size: 28px;
+  font-size: 24px;
   color: #4e4f50;
-}
-
-.concept-container .explanation-column {
-  height: 28rem;
 }

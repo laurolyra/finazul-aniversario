@@ -5,7 +5,7 @@ const Calc = () => (
   <div className="calc-container pb-4">
     <div className="container pt-4">
       <div className="row justify-content-center">
-        <div className="col-8 mb-3">
+        <div className="col-md-8 col-10 mb-3">
           <h2 className="mb-3">De quanto você precisa?</h2>
           <h3>
             Simule agora e veja quanto receber com a antecipação do seu
@@ -15,16 +15,16 @@ const Calc = () => (
       </div>
       <div className="row justify-content-center">
         <div className="white-board col-6 d-flex flex-column align-items-center justify-content-around py-2">
-          <h4 className="pt-2">
+          <h3 className="pt-2">
             <strong>Informe seu saldo do FGTS</strong>
-          </h4>
-          <h5>
+          </h3>
+          <h4>
             Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
-          </h5>
+          </h4>
           <input className="col-6 p-2 text-center" placeholder="R$0,00" />
           <button className="btn btn-primary p-2 rounded-3"><strong>Avançar</strong></button>
         </div>
-        <h4 className="pt-3">*Saldo do FGTS mínimo para contratar de R$ 300,00.</h4>
+        <p className="pt-3">*Saldo do FGTS mínimo para contratar de R$ 300,00.</p>
       </div>
     </div>
   </div>

@@ -11,13 +11,13 @@ const Concept = () => (
         <h2>Quem pode contratar?</h2>
       </div>
 
-      <div className="pt-3 row text-start explanation">
+      <div className="pt-3 row text-start explanation flex-">
         <div className="col-12 col-md-5">
           <img className="img-fluid" src={background} alt="CTPS" />
         </div>
-        <div className="col-12 col-md-7">
-          <div className="d-flex flex-column justify-content-between text-start explanation-column">
-            <div>
+        <div className="col-12 col-md-7 py-4">
+          <div className="d-flex flex-column justify-content-center text-start explanation-column">
+            <div className="mb-3">
               <h3>
                 Modalidade de empréstimo, autorizado pela lei 13.313/16,
                 destinado a{" "}
@@ -28,15 +28,15 @@ const Concept = () => (
                 desde que tenha optado pela modalidade saque-aniversário.
               </h3>
             </div>
-            <div>
+            <div className="mb-3">
               <h3>
-                É possível antecipar até 5 parcelas anuais do seu
-                saque-aniversário sendo o saldo mínimo do FGTS de apenas R$
+                <strong>É possível antecipar até 5 parcelas anuais do seu
+                saque-aniversário</strong> sendo o saldo mínimo do FGTS de apenas R$
                 300,00 para você poder contratar.
               </h3>
             </div>
-            <OrangeBox url="http://www.finazul.com.br" />
           </div>
+            <OrangeBox url="http://www.finazul.com.br" />
         </div>
       </div>
     </div>

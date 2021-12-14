@@ -4,7 +4,7 @@ import "./styles.css";
 const OrangeBox = ({ url }) => (
   <a className="orange-box" href={url}>
     <h2 className="mb-0 orange-box text-center text-decoration-none p-3">
-      Quero antecipar já &#x2192;{" "}
+      Simule já!
     </h2>
   </a>
 );

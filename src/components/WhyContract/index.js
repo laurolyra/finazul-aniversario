@@ -11,10 +11,10 @@ import calc from "./calc.png";
 
 const WhyContract = () => (
   <div className="why-contract-container d-flex">
-    <div className="container d-flex flex-column justify-content-around">
+    <div className="container">
       <h2>Por que contratar?</h2>
-      <div className="topics row">
-        <div className="py-4 mx-auto col-9 topics-board">
+      <div className="row">
+        <div className="py-4 mx-auto col-md-10 topics-board">
           <Topic
             imgSrc={simpleDigital}
             text="Contratação em poucos minutos. Simples e digital."
@@ -25,7 +25,7 @@ const WhyContract = () => (
           <Topic imgSrc={calc} text="O melhor empréstimo para você." />
         </div>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="row justify-content-center">
         <OrangeBox url="http://www.finazul.com.br" />
       </div>
     </div>

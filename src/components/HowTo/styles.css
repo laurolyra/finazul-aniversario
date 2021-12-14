@@ -1,6 +1,9 @@
 .how-to-container {
   background-color: #ffffff;
-  height: 90rem;
+}
+
+.how-to-container h2 {
+  font-size:48px;
 }
 
 .previous-text {
@@ -10,7 +13,7 @@
 }
 
 .how-to-container .video-container h3 {
-  font-size: 30px;
+  font-size: 32px;
   color: #4e4f50;
   font-weight: 600;
   font-family: "Open Sans";

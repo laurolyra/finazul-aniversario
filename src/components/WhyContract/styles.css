@@ -5,15 +5,14 @@
 }
 
 .why-contract-container h2 {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
 }
 
-.why-contract-container .topics-board {
-  font-size: 35px;
+.why-contract-container .topics-board h3 {
+  font-size: 28px;
   line-height: 45px;
   color: #ffffff;
   font-weight: 600;
   text-align: left;
-  /* min-height: 460px; */
 }

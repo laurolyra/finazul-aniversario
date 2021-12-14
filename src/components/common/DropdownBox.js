@@ -10,17 +10,15 @@ const DropdownBox = () => {
         <h2 className="py-2 m-0">Saiba Mais sobre Saque-Aniversário</h2>
       </div>
       <div
-        className="col-2"
+        className="col-2 text-center"
         style={{ cursor: "pointer" }}
         onClick={() => setShowQuestions(!showQuestions)}
       >
-        <p className="py-2 m-0 text-center">
-          {showQuestions ? (
-            <i className="fa fa-chevron-up"></i>
-          ) : (
-            <i className="fa fa-chevron-down"></i>
-          )}
-        </p>
+        {showQuestions ? (
+          <i className="fa fa-chevron-up"></i>
+        ) : (
+          <i className="fa fa-chevron-down"></i>
+        )}
       </div>
       <div
         style={{ display: showQuestions ? "flex" : "none" }}
