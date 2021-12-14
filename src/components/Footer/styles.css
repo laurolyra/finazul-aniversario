@@ -1,0 +1,18 @@
+.footer-container {
+  background-color: #bcbcbc;
+  color: #2c1e73;
+}
+
+.footer-title p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer-container i {
+  font-size: 40px;
+  color: #5f6161;
+}
+
+.address-box p {
+  color: #4e4f50;
+}
