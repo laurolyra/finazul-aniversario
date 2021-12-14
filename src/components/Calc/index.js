@@ -13,6 +13,7 @@ const Calc = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    swipe: false
   };
 
   const whiteboardRef = useRef();
@@ -77,12 +78,9 @@ const Calc = () => {
                 />
               </div>
               <div>
-                <h3 className="py-3">
+                <h3 className="py-3 mb-4">
                   <strong>Informe sua data de nascimento</strong>
                 </h3>
-                <h4 className="pb-3">
-                  Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
-                </h4>
                 <input
                   className="col-6 p-3 text-center"
                   placeholder="00/00/0000"
