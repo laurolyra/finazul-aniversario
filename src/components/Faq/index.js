@@ -14,11 +14,11 @@ const Faq = () => (
   <div className="faq-container position-relative py-3">
     <div className="container">
       <div className="header-image row justify-content-around align-items-center py-3">
-        <div className="col-4 offset-md-1">
+        <div className="col-md-5 col-4 offset-md-1">
           <h2>Dúvidas comuns</h2>
           <h3>Todas as respostas para as suas dúvidas você encontra aqui</h3>
         </div>
-        <div className="col-8 col-md-7">
+        <div className="col-8 col-md-6">
           <img className="image-fluid" src={faqImage} alt="faq image" />
         </div>
       </div>

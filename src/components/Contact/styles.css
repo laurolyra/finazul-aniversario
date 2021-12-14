@@ -1,0 +1,35 @@
+.contact-container h2 {
+  font-size: 40px;
+  color: #0580b7;
+  font-weight: 700;
+}
+
+.contact-container h3 {
+  font-size: 32px;
+  color: #4e4f50;
+  font-weight: 400;
+}
+
+.whatsapp-box {
+  border-radius: 20px;
+  background-color: #f4f9ff;
+  border: 2px solid #1eba5d;
+}
+
+.whatsapp-box h4 {
+  font-size: 24px;
+  color: #2e3266;
+  font-weight: 400;
+}
+
+.whatsapp-box button {
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 17px;
+  background-color: #1eba5d;
+  color: #ffffff
+}

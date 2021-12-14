@@ -6,6 +6,8 @@ import Concept from './components/Concept';
 import WhyContract from './components/WhyContract';
 import HowTo from './components/HowTo';
 import Faq from './components/Faq';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import "./App.css";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <WhyContract />
       <HowTo />
       <Faq />
+      <Contact />
+      <Footer />
     </div>
   );
 }

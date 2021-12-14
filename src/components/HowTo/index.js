@@ -50,19 +50,19 @@ const HowTo = () => {
                     </h3>
                   </div>
                   <div>
-                    <h3>2</h3>
+                    <h3><strong>2 -</strong> Selecione a opção Saque-Aniversário</h3>
                   </div>
                   <div>
-                    <h3>3</h3>
+                    <h3><strong>3 -</strong> Adicione uma instituição financeira</h3>
                   </div>
                   <div>
-                    <h3>4</h3>
+                    <h3><strong>4 -</strong> Procure por Banco PAN</h3>
                   </div>
                   <div>
-                    <h3>5</h3>
+                    <h3><strong>5 -</strong> Confirme a seleção</h3>
                   </div>
                   <div>
-                    <h3>6</h3>
+                    <h3><strong>6 -</strong> Tudo ok</h3>
                   </div>
                 </Slider>
                 <div className="row justify-content-center">
