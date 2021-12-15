@@ -1,21 +1,25 @@
-.fixed-top {
+.finazul-header {
   background-color: #ffffff;
 }
-/* .menu-icon {
-  max-width: 48px;
-} */
 
-.fixed-top .header-link {
+.finazul-header .header-link {
   font-weight: 700;
   font-size: 24px;
   color: #090740;
   text-decoration: none;
-  padding: 0.5rem 1rem
+  padding: 0.5rem 1rem;
 }
 
-.fixed-top .header-link:hover {
+.finazul-header .header-link:hover {
   background-color: #cfcece;
   border-radius: 4px;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   cursor: pointer;
+}
+
+.finazul-header i {
+  font-size: 36px;
+  padding: 5px;
+  border: 2px solid #0094d9;
+  border-radius: 10px;
 }
