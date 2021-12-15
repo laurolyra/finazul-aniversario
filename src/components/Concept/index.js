@@ -4,7 +4,7 @@ import OrangeBox from "../common/OrangeBox";
 import background from "./background.png";
 
 const Concept = () => (
-  <div className="concept-container mt-3">
+  <div className="concept-container mt-3" id="concept">
     <div className="container">
       <div className="row pb-2">
         <h2>O que é o empréstimo?</h2>

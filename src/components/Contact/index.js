@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 const Contact = () => (
-  <div className="contact-container py-3">
+  <div className="contact-container py-3" id="contact">
     <div className="container">
       <div className="row">
         <div className="col-6 m-auto pb-4">

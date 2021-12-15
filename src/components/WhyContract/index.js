@@ -10,7 +10,7 @@ import money from "./money.png";
 import calc from "./calc.png";
 
 const WhyContract = () => (
-  <div className="why-contract-container d-flex">
+  <div className="why-contract-container d-flex" id="why-contract">
     <div className="container">
       <h2>Por que contratar?</h2>
       <div className="row">

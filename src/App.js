@@ -19,7 +19,7 @@ function App() {
       <Concept />
       <WhyContract />
       <HowTo />
-      <Faq />
+      <Faq/>
       <Contact />
       <Footer />
     </div>

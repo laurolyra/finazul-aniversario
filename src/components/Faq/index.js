@@ -30,7 +30,7 @@ const knowMoreTopic = {
 };
 
 const Faq = () => (
-  <div className="faq-container position-relative py-3">
+  <div className="faq-container position-relative py-3" id="faq">
     <div className="container">
       <div className="header-image row justify-content-around align-items-center py-3">
         <div className="col-md-5 col-4 offset-md-1">

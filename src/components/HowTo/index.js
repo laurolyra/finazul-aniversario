@@ -31,7 +31,7 @@ const HowTo = () => {
   };
 
   return (
-    <div className="how-to-container py-4">
+    <div className="how-to-container py-4" id="how-to">
       <div className="container">
         <h2 className="previous-text pb-3">Como fazer</h2>
 
