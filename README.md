@@ -19,8 +19,6 @@ O componente `Faq` também foi configurado para receber quantos _dropdowns_ fore
 
 ## Como rodar esse projeto
 
-clone este repositório e, em seguida, execute:
-
-### `yarn start`
+clone este repositório e, em seguida, execute o comando `yarn install` e, em seguida, `yarn start`.
 
 Críticas, comentários e sugestões são sempre bem vindos. Caso tenha qualquer dúvida, favor contatar pelos meus contatos no meu perfil do giuthub.
