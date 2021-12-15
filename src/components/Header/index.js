@@ -45,7 +45,7 @@ const Header = () => {
             </a>
             {showOptions && (
               <ul
-                className={showOptions && ".navbar-items .navbar-menu.active"}
+                className={showOptions? ".navbar-items .navbar-menu.active" : ""}
               >
                 <a className="navbar-links" href="#concept">
                   O que é?
