@@ -45,21 +45,43 @@ const Header = () => {
             </a>
             {showOptions && (
               <ul
-                className={showOptions? ".navbar-items .navbar-menu.active" : ""}
+                className={
+                  showOptions ? ".navbar-items .navbar-menu.active" : ""
+                }
               >
-                <a className="navbar-links" href="#concept">
+                <a
+                  onClick={() => setShowOptions(false)}
+                  className="navbar-links"
+                  href="#concept"
+                >
                   O que é?
                 </a>
-                <a className="navbar-links" href="#why-contract">
+                <a
+                  onClick={() => setShowOptions(false)}
+                  className="navbar-links"
+                  href="#why-contract"
+                >
                   Por que?
                 </a>
-                <a className="navbar-links" href="#how-to">
+                <a
+                  onClick={() => setShowOptions(false)}
+                  className="navbar-links"
+                  href="#how-to"
+                >
                   Como fazer?
                 </a>
-                <a className="navbar-links" href="#faq">
+                <a
+                  onClick={() => setShowOptions(false)}
+                  className="navbar-links"
+                  href="#faq"
+                >
                   Dúvidas?
                 </a>
-                <a className="navbar-links" href="#contact">
+                <a
+                  onClick={() => setShowOptions(false)}
+                  className="navbar-links"
+                  href="#contact"
+                >
                   Atendimento
                 </a>
               </ul>
