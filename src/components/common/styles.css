@@ -3,11 +3,17 @@
 .orange-box {
   background-color: #f4511e;
   border-radius: 20px;
-  max-width: 472px;
   font-size: 4vh !important;
-  color: #ffffff;
   font-weight: 600;
   text-decoration: none;
+}
+
+.orange-box h2 {
+  color: #ffffff;
+}
+
+.orange-box .arrow-position {
+  bottom: 0rem
 }
 
 .topic {

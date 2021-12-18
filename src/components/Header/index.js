@@ -31,11 +31,11 @@ const Header = () => {
             <a className="header-link" href="#contact">
               Atendimento
             </a>
-            <OrangeBox />
+            <OrangeBox body={false} />
           </div>
 
           <div className="d-md-none d-flex col-5 justify-content-between align-items-center">
-            <OrangeBox />
+            <OrangeBox body={false} />
             <a onClick={() => setShowOptions(!showOptions)}>
               {!showOptions ? (
                 <i className="fa fa-bars"></i>

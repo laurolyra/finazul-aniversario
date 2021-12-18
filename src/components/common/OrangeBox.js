@@ -1,12 +1,29 @@
 import React from "react";
+import orangeBoxArrow from "./orange-box-arrow.png";
 import "./styles.css";
 
-const OrangeBox = () => (
-  <a className="orange-box" href="#calc-box">
-    <h2 className="mb-0 orange-box text-center text-decoration-none p-3">
-      Simule já!
-    </h2>
-  </a>
+const OrangeBox = ({ body = true }) => (
+  <div className="orange-box">
+    <a href="#calc-box" className="text-decoration-none">
+      <div className="p-2 d-flex align-items-center justify-content-center">
+        {body ? (
+          <>
+            <h2 className="p-2 mb-0 text-center">
+              Antecipe já!
+            </h2>
+            <img src={orangeBoxArrow} alt="veja mais" />
+          </>
+        ) : (
+          <>
+            <h2 className="p-2 mb-0 text-center">
+              Simule já!
+            </h2>
+            <img src={orangeBoxArrow} alt="veja mais" />
+          </>
+        )}
+      </div>
+    </a>
+  </div>
 );
 
 export default OrangeBox;
