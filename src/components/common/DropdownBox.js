@@ -28,9 +28,12 @@ const DropdownBox = ({ topic }) => {
       >
         
         {questions.map((obj) => (
-          <div className="row text-start question-box py-2" key={obj.question}>
+          <div className="text-start question-box py-2" key={obj.question}>
             <h3>{obj.question}</h3>
-            <h4>{obj.answer}</h4>
+            <div>
+            <h4>{obj.answer}{' '}</h4>
+            {obj.link ?<a rel="noreferrer" target="_blank" href={obj.link.url}><h4>{obj.link.text}</h4></a>: null}
+            </div>
           </div>
         ))}
       </div>
