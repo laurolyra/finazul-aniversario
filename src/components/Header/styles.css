@@ -27,14 +27,14 @@
 
 .navbar-items .navbar-menu {
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(3, auto);
   list-style: none;
   text-align: center;
   width: 50vw;
   justify-content: flex-end;
   margin-right: 1%;
   margin-bottom: 0;
-  padding: 0
+  padding: 0;
 }
 
 .navbar-items .navbar-links {
@@ -43,13 +43,13 @@
   padding: 0.5rem 1rem;
   font-weight: 700;
   font-size: 24px;
-  font-family: 'open sans', sans-serif;
+  font-family: "open sans", sans-serif;
 }
 
 .navbar-items .navbar-links:hover {
   background-color: #cfcece;
   border-radius: 4px;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .navbar-items .nav-btn a {
@@ -62,12 +62,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
-  height: 45px;
   font-size: 24px;
   cursor: pointer;
   border: 0;
   text-decoration: none;
+  width: 150px;
+  height: 45px;
+}
+
+.navbtn a {
+
+  color: green
+}
+
+@media only screen and (min-width: 769px) {
+  .navbar-items .nav-btn a {
+    width: 270px;
+    height: 45px;
+  }
 }
 
 /* .finazul-header .header-link {
