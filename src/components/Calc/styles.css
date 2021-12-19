@@ -20,16 +20,41 @@
   font-size: 14px;
 }
 
-.white-board {
-  background-color: #ffffff;
-  border-radius: 20px;
-  filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
-  color: #2e3266;
+.input-container p, .input-container input::placeholder {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.white-board input {
-  border-radius: 10px;
-  border: 2px solid #424242;
+.input-container {
+  background-color: #ebebf0;
+  border: 1px solid #b4b4b8;
+}
+
+.input-container:focus, .input-container:hover {
+  border: 1px solid #000000;
+}
+
+.input-container p {
+  margin-bottom: 0
+}
+
+.input-container input {
+  font-weight: 400;
+  background-color: #ebebf0;
+  font-size: 24px;
+  padding: 0;
+  border: none;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.white-board {
+  background-color: #ffffff;
+  filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
+  color: #2e3266;
+  border-radius: 20px;
 }
 
 .white-board button {

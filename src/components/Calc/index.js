@@ -13,7 +13,7 @@ const Calc = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    swipe: false
+    swipe: false,
   };
 
   const whiteboardRef = useRef();
@@ -34,9 +34,9 @@ const Calc = () => {
   };
 
   const checkOptions = () => {
-    console.log('ok', currentSlide);
+    console.log("ok", currentSlide);
     // if (currentSlide + 1 === 2 ) return sendData();
-    if (currentSlide + 1 > 2 ) return restart();
+    if (currentSlide + 1 > 2) return restart();
     return next();
   };
 
@@ -44,7 +44,7 @@ const Calc = () => {
     <div className="calc-container py-md-5 py-2">
       <div className="container pt-4">
         <div className="row justify-content-center">
-          <div className="col-md-8 mb-3">
+          <div className="col-12 col-md-8 mb-3">
             <h2 id="calc-box" className="mb-3">
               De quanto você precisa?
             </h2>
@@ -63,19 +63,31 @@ const Calc = () => {
                   <strong>Informe seu saldo do FGTS</strong>
                 </h3>
                 <h4 className="pb-3">
-                  Não sabe seu saldo FGTS? <a rel="noreferrer" target="_blank" href="https://www.caixa.gov.br/atendimento/aplicativos/fgts/">Clique aqui.</a>
+                  Não sabe seu saldo FGTS?{" "}
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.caixa.gov.br/atendimento/aplicativos/fgts/"
+                  >
+                    Clique aqui.
+                  </a>
                 </h4>
-                <input
-                  className="col-6 p-3 text-center"
-                  placeholder="R$0,00"
-                  onKeyPress={(event) => {
-                    if (/([A-z])/.test(event.key)) {
-                      event.preventDefault();
-                    }
-                  }}
-                  value={balance}
-                  onChange={(e) => setBalance(e.target.value)}
-                />
+                <div className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto">
+                  <p className="p-2">R$</p>
+                  <input
+                    className="text-end p-2"
+                    placeholder="0,00"
+                    size="8"
+                    maxLength="8"
+                    onKeyPress={(event) => {
+                      if (/([A-z])/.test(event.key)) {
+                        event.preventDefault();
+                      }
+                    }}
+                    value={balance}
+                    onChange={(e) => setBalance(e.target.value)}
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="py-3 mb-4">
