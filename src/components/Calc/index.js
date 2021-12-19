@@ -41,10 +41,10 @@ const Calc = () => {
   };
 
   return (
-    <div className="calc-container pb-4">
+    <div className="calc-container py-md-5 py-2">
       <div className="container pt-4">
         <div className="row justify-content-center">
-          <div className="col-md-8 col-10 mb-3">
+          <div className="col-md-8 mb-3">
             <h2 id="calc-box" className="mb-3">
               De quanto você precisa?
             </h2>
@@ -56,7 +56,7 @@ const Calc = () => {
         </div>
 
         <div className="row justify-content-center mb-3">
-          <div className=" white-board col-10">
+          <div className=" white-board col-md-7 col-11">
             <Slider className="d-flex py-2" {...settings} ref={whiteboardRef}>
               <div>
                 <h3 className="py-3">
