@@ -8,85 +8,89 @@ const Header = () => {
 
   return (
     <section className="fixed-top finazul-header">
-      <nav className="navbar">
-        <div className="container-fluid">
-          <div className="col-3">
-            <a href="http://www.finazul.com.br">
-              <img src={finazulLogo} alt="logo Finazul"></img>
+      <nav className="navbar-items">
+        <div className="d-block navbar-logo">
+          <a href="http://www.finazul.com.br">
+            <img src={finazulLogo} alt="logo Finazul"></img>
+          </a>
+        </div>
+
+        <ul className="navbar-menu">
+          <li>
+            <a href="https://www.finazul.com.br/app/sobre" className="navbar-links">
+            Quem somos
             </a>
-          </div>
-          <div className="col-md-9 d-none d-md-flex justify-content-around align-items-center">
-            <a className="header-link" href="#concept">
-              O que é?
+          </li>
+          <li>
+            <a href="https://www.finazul.com.br/app/faq" className="navbar-links">
+            Dúvidas comuns
             </a>
-            <a className="header-link" href="#why-contract">
-              Por que?
-            </a>
-            <a className="header-link" href="#how-to">
-              Como fazer?
-            </a>
-            <a className="header-link" href="#faq">
-              Dúvidas?
-            </a>
-            <a className="header-link" href="#contact">
+          </li>
+
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=5571992000994&amp;amp;text=Olá, desejo informações sobre empréstimo consignado!&amp;amp;source=&amp;amp;data="
+              className="navbar-links"
+            >
               Atendimento
             </a>
-            <OrangeBox body={false} />
-          </div>
+          </li>
+        </ul>
 
-          <div className="d-md-none d-flex col-5 justify-content-between align-items-center">
-            <OrangeBox body={false} />
-            <a onClick={() => setShowOptions(!showOptions)}>
-              {!showOptions ? (
-                <i className="fa fa-bars"></i>
-              ) : (
-                <i className="fa fa-times"></i>
-              )}
-            </a>
-            {showOptions && (
-              <ul
-                className={
-                  showOptions ? ".navbar-items .navbar-menu.active" : ""
-                }
-              >
-                <a
-                  onClick={() => setShowOptions(false)}
-                  className="navbar-links"
-                  href="#concept"
-                >
-                  O que é?
-                </a>
-                <a
-                  onClick={() => setShowOptions(false)}
-                  className="navbar-links"
-                  href="#why-contract"
-                >
-                  Por que?
-                </a>
-                <a
-                  onClick={() => setShowOptions(false)}
-                  className="navbar-links"
-                  href="#how-to"
-                >
-                  Como fazer?
-                </a>
-                <a
-                  onClick={() => setShowOptions(false)}
-                  className="navbar-links"
-                  href="#faq"
-                >
-                  Dúvidas?
-                </a>
-                <a
-                  onClick={() => setShowOptions(false)}
-                  className="navbar-links"
-                  href="#contact"
-                >
-                  Atendimento
-                </a>
-              </ul>
+        <div className="nav-btn">
+          <a href="#calc-box" className="button">Simule Já</a>
+        </div>
+
+        <div className="d-md-none d-flex col-5 justify-content-between align-items-center">
+          <OrangeBox body={false} />
+          <a onClick={() => setShowOptions(!showOptions)}>
+            {!showOptions ? (
+              <i className="fa fa-bars"></i>
+            ) : (
+              <i className="fa fa-times"></i>
             )}
-          </div>
+          </a>
+          {showOptions && (
+            <ul
+              className={showOptions ? ".navbar-items .navbar-menu.active" : ""}
+            >
+              <a
+                onClick={() => setShowOptions(false)}
+                className="navbar-links"
+                href="#concept"
+              >
+                O que é?
+              </a>
+              <a
+                onClick={() => setShowOptions(false)}
+                className="navbar-links"
+                href="#why-contract"
+              >
+                Por que?
+              </a>
+              <a
+                onClick={() => setShowOptions(false)}
+                className="navbar-links"
+                href="#how-to"
+              >
+                Como fazer?
+              </a>
+              <a
+                onClick={() => setShowOptions(false)}
+                className="navbar-links"
+                href="#faq"
+              >
+                Dúvidas?
+              </a>
+              <a
+                onClick={() => setShowOptions(false)}
+                className="navbar-links"
+                href="#contact"
+              >
+                Atendimento
+              </a>
+            </ul>
+          )}
         </div>
       </nav>
     </section>

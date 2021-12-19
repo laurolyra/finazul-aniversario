@@ -63,7 +63,7 @@ const Calc = () => {
                   <strong>Informe seu saldo do FGTS</strong>
                 </h3>
                 <h4 className="pb-3">
-                  Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
+                  Não sabe seu saldo FGTS? <a rel="noreferrer" target="_blank" href="https://www.caixa.gov.br/atendimento/aplicativos/fgts/">Clique aqui.</a>
                 </h4>
                 <input
                   className="col-6 p-3 text-center"
@@ -97,7 +97,7 @@ const Calc = () => {
               <div>
                 {/* Aqui é a refatoração encessária a depender da respota da API */}
                 <h3 className="py-3">
-                  <strong>Informe seu saldo do FGTS</strong>
+                  <strong>Slide final</strong>
                 </h3>
                 <h4 className="pb-3">
                   Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
