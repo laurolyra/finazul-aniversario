@@ -3,18 +3,19 @@
 .orange-box {
   background-color: #f4511e;
   border-radius: 20px;
-  font-size: 4vh !important;
   max-width: 25rem;
   text-decoration: none;
 }
 
 .orange-box h2 {
+  font-size: 20px !important;
   font-weight: 600;
   color: #ffffff;
 }
 
-.orange-box .arrow-position {
-  bottom: 0rem
+.orange-box img {
+    transform: scale(0.7);
+    transform-origin: center;
 }
 
 .topic {

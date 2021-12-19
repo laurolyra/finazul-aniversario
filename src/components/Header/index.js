@@ -40,7 +40,7 @@ const Header = () => {
           <a href="#calc-box" className="button">Simule Já</a>
         </div>
 
-        <a onClick={() => setShowOptions(!showOptions)}>
+        <a className="d-md-none" onClick={() => setShowOptions(!showOptions)}>
           {!showOptions ? (
             <i className="fa fa-bars"></i>
           ) : (

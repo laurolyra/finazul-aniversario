@@ -1,22 +1,22 @@
 .hero-container {
   margin-top: 2rem;
   text-align: center;
-  background: url("./background-mobile.png");
+  background: url("./background-mobile2.png");
   background-repeat: no-repeat;
-  background-size: 15rem;
-  background-position-x: 10rem;
+  background-size: 21rem;
+  background-position-x: calc(100% + 5rem);
   background-position-y: bottom;
 }
 
 .hero-container .title {
-  font-size: 24px;
+  font-size: 32px;
   color: #2e3266;
   font-weight: 800;
 }
 
 .hero-container h3,
 .hero-container h4 {
-  font-size: 20px;
+  font-size: 24px;
   color: #4e4f50;
   font-weight: 700;
   margin-bottom: 0;
@@ -30,18 +30,20 @@
   .hero-container {
     margin-top: 4rem;
     background-position-x: initial;
+    background-position-y: initial;
     background-position: top left;
     background: url("./background.png");
-    min-height: 716px;
+    background-size: cover;
+    min-height: 32rem;
   }
   .hero-container .title {
-    font-size: 32px;
+    font-size: 40px;
   }
   .hero-container h3 {
-    font-size: 24px;
+    font-size: 32px;
   }
   .hero-container h4 {
-    font-size: 16px;
+    font-size: 24px;
   }
 
 }
