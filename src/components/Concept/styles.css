@@ -3,12 +3,21 @@
 }
 
 .concept-container .container h2 {
-  font-weight: 700;
+  font-weight: 800;
   margin: 0;
-  font-size: 40px;
+  font-size: 24px;
 }
 
 .concept-container h3 {
-  font-size: 24px;
+  font-size: 16px;
   color: #4e4f50;
+}
+
+@media only screen and (min-width: 768px) {
+  .concept-container .container h2 {
+    font-size: 32px;
+  }
+  .concept-container .container h3 {
+    font-size: 24px;
+  }
 }

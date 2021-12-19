@@ -4,19 +4,19 @@ import OrangeBox from "../common/OrangeBox";
 import background from "./background.png";
 
 const Concept = () => (
-  <div className="concept-container mt-3" id="concept">
+  <div className="concept-container pt-4" id="concept">
     <div className="container">
       <div className="row pb-2">
-        <h2>O que é o empréstimo?</h2>
+        <h2 className="mb-2">O que é o empréstimo?</h2>
         <h2>Quem pode contratar?</h2>
       </div>
 
-      <div className="pt-3 row text-start flex-column-reverse flex-md-row">
-        <div className="col-3 col-md-5 align-self-end">
+      <div className="pt-3 row flex-column-reverse flex-md-row">
+        <div className="d-none d-md-block col-md-5 align-self-end">
           <img className="img-fluid" src={background} alt="CTPS" />
         </div>
-        <div className="col-9 col-md-7 py-4 align-self-center">
-          <div className="d-flex flex-column justify-content-center text-start">
+        <div className="pb-4 col-9 col-md-7 align-self-center">
+          <div className="d-flex flex-column justify-content-center text-center text-md-start">
             <div className="mb-3">
               <h3>
                 Modalidade de empréstimo, autorizado pela lei 13.313/16,

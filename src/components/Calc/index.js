@@ -6,6 +6,7 @@ const Calc = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [balance, setBalance] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState("");
+  const [userData, setUserData] = useState({balance: "", dateOfBirth: ""});
 
   var settings = {
     dots: false,
@@ -78,7 +79,7 @@ const Calc = () => {
                     className="text-end p-2"
                     placeholder="0,00"
                     size="8"
-                    maxLength="8"
+                    maxLength={8}
                     onKeyPress={(event) => {
                       if (/([A-z])/.test(event.key)) {
                         event.preventDefault();
@@ -94,8 +95,9 @@ const Calc = () => {
                   <strong>Informe sua data de nascimento</strong>
                 </h3>
                 <input
-                  className="col-6 p-3 text-center"
+                  className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2"
                   placeholder="00/00/0000"
+                  size="10"
                   maxLength={10}
                   onKeyPress={(event) => {
                     if (/([A-z])/.test(event.key)) {
@@ -114,7 +116,7 @@ const Calc = () => {
                 <h4 className="pb-3">
                   Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
                 </h4>
-                <input className="col-6 p-3 text-center" placeholder="R$0,00" />
+                <input className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2" placeholder="R$0,00" />
               </div>
             </Slider>
 

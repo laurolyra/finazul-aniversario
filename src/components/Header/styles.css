@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 
 .navbar-items .navbar-menu {
@@ -80,6 +80,9 @@
     width: 270px;
     height: 45px;
   }
+.navbar-items .navbar-logo a img {
+  width: 50%;
+}
 }
 
 /* .finazul-header .header-link {
