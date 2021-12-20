@@ -33,16 +33,16 @@ const HowTo = () => {
   return (
     <div className="how-to-container py-4" id="how-to">
       <div className="container">
-        <div className="container">
+        <div className="container col-md-10">
           <h2 className="previous-text pb-3">Como fazer</h2>
 
           <div className="row pb-3">
             <div className="shadow-box m-auto p-2">
-              <div className="container justify-content-center d-flex">
-                <div className="col-7">
+              <div className="container p-0 px-md-2 justify-content-center d-flex">
+                <div className="col-6 col-md-5">
                   <img src={mobile} alt="telefone" />
                 </div>
-                <div className="instructions col-5 d-flex flex-column justify-content-around">
+                <div className="instructions col-6 col-md-7 d-flex flex-column justify-content-around">
                   <Slider {...settings} ref={sliderRef}>
                     <div>
                       <h3>
