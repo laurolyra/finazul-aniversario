@@ -28,13 +28,13 @@
 
 .dropdown-box {
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #e5effc;
   border: 2px solid #2e3266;
   color: #2e3266;
 }
 
 .dropdown-box h2 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -44,4 +44,10 @@
 
 .show-hide-container {
   height: 30rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .dropdown-box h2 {
+    font-size: 28px;
+  }
 }

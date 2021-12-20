@@ -3,14 +3,24 @@
 }
 
 .header-image h2 {
-  font-size: 48px;
+  font-size: 24px;
   color: #0580b7;
   font-weight: 700;
   text-align: center;
 }
 
 .header-image h3 {
-  font-size: 40px;
+  font-size: 16px;
   color: #2e3266;
   text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+  .header-image h2 {
+    font-size: 40px;
+  }
+  .header-image h3 {
+    font-size: 32px;
+  }
+}
+

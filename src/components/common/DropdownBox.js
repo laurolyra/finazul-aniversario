@@ -8,7 +8,7 @@ const DropdownBox = ({ topic }) => {
 
   return (
     <div className="row justify-content-between dropdown-box align-items-center mw-75 position-relative text-start mb-3">
-      <div className="col-8">
+      <div className="col-10">
         <h2 className="py-2 m-0">{topicHeader}</h2>
       </div>
       <div

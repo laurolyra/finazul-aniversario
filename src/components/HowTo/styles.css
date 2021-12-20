@@ -21,8 +21,6 @@
 }
 
 .shadow-box {
-  width: 50rem;
-  height: 21rem;
   border-radius: 20px;
   filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
   background-color: #ffffff;
@@ -38,7 +36,6 @@
 }
 
 .how-to-container .brand-block {
-  height: 24rem;
   justify-content: space-around;
 }
 
@@ -101,11 +98,4 @@
   width: auto;
   max-width: 15rem;
   height: 6rem;
-}
-
-@media only screen and (min-width: 768px) {
-  .video-container iframe {
-    min-height: 32rem;
-    width: 100%;
-  }
 }
