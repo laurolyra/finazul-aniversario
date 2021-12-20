@@ -18,6 +18,7 @@ const HowTo = () => {
   var settings = {
     dots: false,
     infinite: false,
+    swipe: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
