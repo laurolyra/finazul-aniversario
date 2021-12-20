@@ -3,7 +3,7 @@
 }
 
 .how-to-container h2 {
-  font-size:48px;
+  font-size: 32px;
 }
 
 .previous-text {
@@ -13,7 +13,7 @@
 }
 
 .how-to-container .video-container h3 {
-  font-size: 32px;
+  font-size: 24px;
   color: #4e4f50;
   font-weight: 600;
   font-family: "Open Sans";
@@ -24,12 +24,12 @@
   width: 50rem;
   height: 21rem;
   border-radius: 20px;
-  filter: drop-shadow(0px 3px 13.5px rgba(0,0,0,0.35));
+  filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
   background-color: #ffffff;
 }
 
 .shadow-box img {
-  height: 19rem
+  height: 19rem;
 }
 
 .how-to-container .how-to-block {
@@ -42,7 +42,7 @@
   justify-content: space-around;
 }
 
-.brand-block h3 {
+.brand-block h2 {
   font-size: 32px;
   color: #0580b7;
   font-weight: 700;
@@ -55,15 +55,19 @@
   text-align: center;
 }
 
+.video-container iframe {
+  min-height: 17rem;
+  width: 100%;
+}
+
 .video-box {
   border-radius: 20px;
-  filter: drop-shadow(0px 3px 13.5px rgba(0,0,0,0.35));
+  filter: drop-shadow(0px 3px 13.5px rgba(0, 0, 0, 0.35));
   background-color: #ffffff;
-  width: 40rem;
 }
 
 .how-to-container .topics-board {
-  font-size: 35px;
+  font-size: 32px;
   line-height: 45px;
   color: #ffffff;
   font-weight: 600;
@@ -97,4 +101,11 @@
   width: auto;
   max-width: 15rem;
   height: 6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .video-container iframe {
+    min-height: 32rem;
+    width: 100%;
+  }
 }

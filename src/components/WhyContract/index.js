@@ -10,24 +10,33 @@ import money from "./money.png";
 import calc from "./calc.png";
 
 const WhyContract = () => (
-  <div className="why-contract-container d-flex" id="why-contract">
+  <div className="why-contract-container d-flex py-5" id="why-contract">
     <div className="container">
       <h2>Por que contratar?</h2>
-      <div className="row">
-        <div className="py-4 mx-auto col-md-10 topics-board">
+     
+      <div className="text-start container py-4">
+        <div className="row">
           <Topic
             imgSrc={simpleDigital}
             text="Contratação em poucos minutos. Simples e digital."
           />
+        </div>
+        <div className="row">
           <Topic imgSrc={fgts} text="Saldo no FGTS a partir de R$ 300,00." />
+        </div>
+        <div className="row">
           <Topic imgSrc={anual} text="Parcelas anuais e não mensais." />
+        </div>
+        <div className="row">
           <Topic imgSrc={money} text="Disponível para negativados." />
+        </div>
+        <div className="row">
           <Topic imgSrc={calc} text="O melhor empréstimo para você." />
         </div>
       </div>
-      <div className="row justify-content-center m-auto">
-        <OrangeBox/>
-      </div>
+        <div className="row justify-content-center m-auto">
+          <OrangeBox />
+        </div>
     </div>
   </div>
 );

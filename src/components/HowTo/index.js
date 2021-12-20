@@ -33,81 +33,89 @@ const HowTo = () => {
   return (
     <div className="how-to-container py-4" id="how-to">
       <div className="container">
-        <h2 className="previous-text pb-3">Como fazer</h2>
+        <div className="container">
+          <h2 className="previous-text pb-3">Como fazer</h2>
 
-        <div className="row pb-3">
-          <div className="shadow-box m-auto p-2">
-            <div className="container justify-content-center d-flex">
-              <div className="col-7">
-                <img src={mobile} alt="telefone" />
-              </div>
-              <div className="instructions col-5 d-flex flex-column justify-content-around">
-                <Slider {...settings} ref={sliderRef}>
-                  <div>
-                    <h3>
-                      <strong>1 -</strong> Após ter optado pelo saque
-                      aniversário, autorize a consulta dos bancos
-                    </h3>
+          <div className="row pb-3">
+            <div className="shadow-box m-auto p-2">
+              <div className="container justify-content-center d-flex">
+                <div className="col-7">
+                  <img src={mobile} alt="telefone" />
+                </div>
+                <div className="instructions col-5 d-flex flex-column justify-content-around">
+                  <Slider {...settings} ref={sliderRef}>
+                    <div>
+                      <h3>
+                        <strong>1 -</strong> Após ter optado pelo saque
+                        aniversário, autorize a consulta dos bancos
+                      </h3>
+                    </div>
+                    <div>
+                      <h3>
+                        <strong>2 -</strong> Selecione a opção Saque-Aniversário
+                      </h3>
+                    </div>
+                    <div>
+                      <h3>
+                        <strong>3 -</strong> Adicione uma instituição financeira
+                      </h3>
+                    </div>
+                    <div>
+                      <h3>
+                        <strong>4 -</strong> Procure por Banco PAN
+                      </h3>
+                    </div>
+                    <div>
+                      <h3>
+                        <strong>5 -</strong> Confirme a seleção
+                      </h3>
+                    </div>
+                    <div>
+                      <h3>
+                        <strong>6 -</strong> Tudo ok
+                      </h3>
+                    </div>
+                  </Slider>
+                  <div className="row justify-content-center">
+                    <button
+                      className="button rounded-circle"
+                      onClick={previous}
+                      disabled={currentSlide === 0}
+                    >
+                      &#x2190;
+                    </button>
+                    <button className="button rounded-circle" onClick={next}>
+                      &#x2192;
+                    </button>
                   </div>
-                  <div>
-                    <h3><strong>2 -</strong> Selecione a opção Saque-Aniversário</h3>
-                  </div>
-                  <div>
-                    <h3><strong>3 -</strong> Adicione uma instituição financeira</h3>
-                  </div>
-                  <div>
-                    <h3><strong>4 -</strong> Procure por Banco PAN</h3>
-                  </div>
-                  <div>
-                    <h3><strong>5 -</strong> Confirme a seleção</h3>
-                  </div>
-                  <div>
-                    <h3><strong>6 -</strong> Tudo ok</h3>
-                  </div>
-                </Slider>
-                <div className="row justify-content-center">
-                  <button
-                    className="button rounded-circle"
-                    onClick={previous}
-                    disabled={currentSlide === 0}
-                  >
-                    &#x2190;
-                  </button>
-                  <button className="button rounded-circle" onClick={next}>
-                    &#x2192;
-                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="row align-items-center video-container how-to-block py-4">
-          <h3 className="col-7">
-            Assista nosso vídeo e conheça mais sobre a antecipação do
-            Saque-Aniversário FGTS
-          </h3>
-          <div className="video-box position-relative">
-            <div className="pt-2">
+        <div className="container video-container py-5">
+          <div className="row">
+            <h3 className="mb-2">
+              Assista nosso vídeo e conheça mais sobre a antecipação do
+              Saque-Aniversário FGTS
+            </h3>
+          </div>
+          <div className="embed-responsive embed-responsive-16by9">
               <iframe
-                width="560"
-                height="315"
+                className="embed-responsive-item"
                 src="https://www.youtube.com/embed/EZR2LVXW-HY"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
-          </div>
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center brand-block">
           <div className="row justify-content-center">
-            <div className="col-7">
-              <h3> Conheça alguns dos nossos parceiros</h3>
+            <div>
+              <h2> Conheça alguns dos nossos parceiros</h2>
             </div>
-            <div className="col-7 pb-2">
+            <div className="pb-2">
               <h4>
                 Trabalhamos com os melhores bancos de forma direta e indireta
                 para você ter o melhor empréstimo
@@ -122,7 +130,6 @@ const HowTo = () => {
             <img className="pb-2" src={cetelem} alt="banco pan" />
             <img className="pb-2" src={bmg} alt="banco pan" />
           </div>
-          
         </div>
       </div>
     </div>
