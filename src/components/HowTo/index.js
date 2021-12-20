@@ -96,7 +96,7 @@ const HowTo = () => {
 
         <div className="container video-container py-5">
           <div className="col-md-6 m-auto">
-            <h3 className="mb-2 mb-md-3">
+            <h3 className="mb-2 mb-md-5 mt-md-4">
               Assista nosso vídeo e conheça mais sobre a antecipação do
               Saque-Aniversário FGTS
             </h3>

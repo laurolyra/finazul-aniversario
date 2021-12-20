@@ -46,7 +46,7 @@
 }
 
 .brand-block h4 {
-  font-size: 24px;
+  font-size: 18px;
   color: #2e3266;
   font-weight: 600;
   text-align: center;
@@ -97,11 +97,17 @@
 .image-line img {
   width: auto;
   max-width: 15rem;
-  height: 6rem;
+  height: 4rem;
 }
 
 @media only screen and (min-width: 769px) {
   .video-container iframe {
     min-height: 32rem;
+  }
+  .image-line img {
+    height: 6rem;
+  }
+  .brand-block h4 {
+    font-size: 24px;
   }
 }
