@@ -8,14 +8,14 @@ const Footer = () => (
         <p>Redes Sociais</p>
       </div>
 
-      <div className="row justify-content-center m-auto pb-2">
-        <div className="col-1">
+      <div className="row justify-content-center m-auto pb-2 w-md-25">
+        <div className="col-2">
           <i className="fa fa-whatsapp"></i>
         </div>
-        <div className="col-1">
+        <div className="col-2">
           <i className="fa fa-instagram"></i>
         </div>
-        <div className="col-1">
+        <div className="col-2">
           <i className="fa fa-facebook-square"></i>
         </div>
       </div>
