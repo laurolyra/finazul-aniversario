@@ -74,7 +74,7 @@ const Calc = () => {
                     Clique aqui.
                   </a>
                 </h4>
-                <div className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto">
+                <div className="col-12 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto">
                   <p className="p-2">R$</p>
                   <input
                     className="text-end p-2"

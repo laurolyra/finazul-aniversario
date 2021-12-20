@@ -1,5 +1,7 @@
 .concept-container {
   color: #2e3266;
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
 }
 
 .concept-container .container h2 {
@@ -14,6 +16,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .concept-container {
+    background-image: none;
+  }
   .concept-container .container h2 {
     font-size: 32px;
   }
