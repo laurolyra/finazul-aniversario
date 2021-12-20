@@ -4,15 +4,13 @@ import "./styles.css";
 const Contact = () => (
   <div className="contact-container py-3" id="contact">
     <div className="container">
-      <div className="row">
-        <div className="col-6 m-auto pb-4">
-          <h2>Atendimento</h2>
-          <h3>Vem com a gente para esclarecer todas as suas dúvidas</h3>
-        </div>
+      <div className="row py-3">
+        <h2>Atendimento</h2>
+        <h3>Vem com a gente para esclarecer todas as suas dúvidas</h3>
       </div>
 
       <div className="row">
-        <div className="col-9 m-auto pb-4">
+        <div className="col-11 col-md-7 m-auto pb-4">
           <div className="row whatsapp-box align-items-center">
             <div className="col-7 p-3">
               <h4 className="m-0">

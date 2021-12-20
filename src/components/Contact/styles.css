@@ -1,11 +1,11 @@
 .contact-container h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: #0580b7;
   font-weight: 700;
 }
 
 .contact-container h3 {
-  font-size: 32px;
+  font-size: 24px;
   color: #4e4f50;
   font-weight: 400;
 }
@@ -17,7 +17,7 @@
 }
 
 .whatsapp-box h4 {
-  font-size: 24px;
+  font-size: 16px;
   color: #2e3266;
   font-weight: 400;
 }

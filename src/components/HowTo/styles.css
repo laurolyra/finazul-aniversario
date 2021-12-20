@@ -99,3 +99,7 @@
   max-width: 15rem;
   height: 6rem;
 }
+
+.video-container iframe {
+  min-height: 32rem;
+}
