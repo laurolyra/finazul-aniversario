@@ -2,6 +2,8 @@
   color: #2e3266;
   background-image: url('./background.png');
   background-repeat: no-repeat;
+  background-size: 6rem;
+  background-position: bottom left;
 }
 
 .concept-container .container h2 {

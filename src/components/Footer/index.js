@@ -8,38 +8,32 @@ import "./styles.css";
 const Footer = () => (
   <div className="footer-container">
     <div className="container">
-      <div className="d-flex py-5 justify-content-between align-items-center">
+      <div className="d-flex flex-column flex-md-row py-2 py-md-5 justify-content-between align-items-center">
         <img className="finazul-logo-footer" src={finazulLogoFooter} />
         <div className="social-network">
           <h4>Redes sociais</h4>
-          <div className="row justify-content-center m-auto pb-2 w-md-25">
-            <div className="col-4">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.finazul.com.br/app"
-              >
-                <img src={facebookIcon} alt="" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.finazul.com.br/app"
-              >
-                <img src={instagramIcon} alt="" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.finazul.com.br/app"
-              >
-                <img src={whatsappIcon} alt="" />
-              </a>
-            </div>
+          <div className="d-flex flex-row justify-content-around social-icons pb-2 w-md-25">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.finazul.com.br/app"
+            >
+              <img src={facebookIcon} alt="" />
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.finazul.com.br/app"
+            >
+              <img src={instagramIcon} alt="" />
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.finazul.com.br/app"
+            >
+              <img src={whatsappIcon} alt="" />
+            </a>
           </div>
         </div>
         <div className="address-box">
