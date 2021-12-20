@@ -18,7 +18,7 @@ const Concept = () => (
         <div className="pb-5 col-12 col-md-7 align-self-center">
           <div className="d-flex flex-column justify-content-center text-center text-md-start">
             <div className="row p-1">
-              <h3>
+              <h3 className="py-md-4">
                 Modalidade de empréstimo, autorizado pela lei 13.313/16,
                 destinado a{" "}
                 <strong>
@@ -29,7 +29,7 @@ const Concept = () => (
               </h3>
             </div>
             <div className="row p-1">
-              <h3>
+              <h3 className="py-md-4">
                 <strong>
                   É possível antecipar até 5 parcelas anuais do seu
                   saque-aniversário

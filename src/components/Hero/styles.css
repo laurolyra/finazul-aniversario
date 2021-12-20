@@ -34,7 +34,7 @@
     background-position: top left;
     background: url("./background.png");
     background-size: cover;
-    min-height: 55rem;
+    min-height: 56rem;
   }
   .hero-container .title {
     font-size: 40px;
