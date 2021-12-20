@@ -1,6 +1,25 @@
 .footer-container {
-  background-color: #bcbcbc;
+  background-color: #ececec;;
   color: #2c1e73;
+}
+
+.footer-container .finazul-logo-footer {
+  object-fit: cover;
+  height: 6rem;
+}
+
+.footer-container .finazul-logo-footer img {
+  object-fit: cover;
+  height: 6rem;
+}
+
+.social-network h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #131753;
+  text-align: center;
 }
 
 .footer-title p {
