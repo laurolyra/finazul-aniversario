@@ -1,6 +1,11 @@
 import React, { useState, useRef } from "react";
 import "./styles.css";
-import mobile from "./mobile.png";
+import step01 from "./01.png";
+import step02 from "./02.jpg";
+import step03 from "./03.jpg";
+import step04 from "./04.jpg";
+import step05 from "./05.jpg";
+import step06 from "./06.jpg";
 import Slider from "react-slick";
 import bancoPan from "./banco-pan.png";
 import cetelem from "./cetelem.png";
@@ -40,9 +45,38 @@ const HowTo = () => {
             <div className="shadow-box m-auto p-2">
               <div className="container p-0 px-md-2 justify-content-center d-flex">
                 <div className="col-6 col-md-5">
-                  <img src={mobile} alt="telefone" />
+                  <img
+                    src={step01}
+                    className={currentSlide !== 0 && "d-none"}
+                    alt="passo 01"
+                  />
+                  <img
+                    src={step02}
+                    className={currentSlide !== 1 && "d-none"}
+                    alt="passo 02"
+                  />
+                  <img
+                    src={step03}
+                    className={currentSlide !== 2 && "d-none"}
+                    alt="passo 03"
+                  />
+                  <img
+                    src={step04}
+                    className={currentSlide !== 3 && "d-none"}
+                    alt="passo 04"
+                  />
+                  <img
+                    src={step05}
+                    className={currentSlide !== 4 && "d-none"}
+                    alt="passo 05"
+                  />
+                  <img
+                    src={step06}
+                    className={currentSlide !== 5 && "d-none"}
+                    alt="passo 06"
+                  />
                 </div>
-                <div className="instructions col-6 col-md-7 d-flex flex-column justify-content-around">
+                <div className="instructions col-6 col-md-7 d-flex flex-column justify-content-center">
                   <Slider {...settings} ref={sliderRef}>
                     <div>
                       <h3>
@@ -84,7 +118,11 @@ const HowTo = () => {
                     >
                       &#x2190;
                     </button>
-                    <button className="button rounded-circle" onClick={next}>
+                    <button
+                      className="button rounded-circle"
+                      onClick={next}
+                      disabled={currentSlide === 5}
+                    >
                       &#x2192;
                     </button>
                   </div>
@@ -102,12 +140,12 @@ const HowTo = () => {
             </h3>
           </div>
           <div className="embed-responsive embed-responsive-16by9">
-              <iframe
-                className="embed-responsive-item"
-                src="https://www.youtube.com/embed/EZR2LVXW-HY"
-                allowFullScreen
-              ></iframe>
-            </div>
+            <iframe
+              className="embed-responsive-item"
+              src="https://www.youtube.com/embed/EZR2LVXW-HY"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
 
         <div className="row justify-content-center brand-block">
