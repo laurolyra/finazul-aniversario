@@ -27,12 +27,12 @@ const DropdownBox = ({ topic }) => {
         className="flex-column position-relative"
       >
         
-        {questions.map((obj) => (
-          <div className="text-start question-box py-2" key={obj.question}>
-            <h3>{obj.question}</h3>
+        {questions.map(({question, answer, link}) => (
+          <div className="text-start question-box py-2" key={question}>
+            <h3>{question}</h3>
             <div>
-            <h4>{obj.answer}{' '}</h4>
-            {obj.link ?<a rel="noreferrer" target="_blank" href={obj.link.url}><h4>{obj.link.text}</h4></a>: null}
+            <h4>{answer}{' '}</h4>
+            {link ?<a href={link.url}><h4>{link.text}</h4></a>: null}
             </div>
           </div>
         ))}

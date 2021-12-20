@@ -37,7 +37,17 @@
   padding: 0;
 }
 
-.navbar-items .navbar-links {
+.navbar-items-mobile {
+  text-align: center;
+  justify-content: center;
+  margin-right: 1%;
+  margin-bottom: 0;
+  padding: 0;
+  height: 100vh;
+  align-items: space-around;
+}
+
+.navbar-items .navbar-links, .navbar-items-mobile .navbar-links {
   color: #090740;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -70,6 +80,9 @@
   height: 45px;
 }
 
+ul {
+  list-style-type: none;
+}
 
 @media only screen and (min-width: 769px) {
   .navbar-items .nav-btn a {

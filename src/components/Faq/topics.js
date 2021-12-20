@@ -42,7 +42,7 @@ export const topics = [
         answer:
         "Veja nesse guia rápido que preparamos para você. Clique aqui:",
         link: {
-          url:'http://www.google.com',
+          url:'#calc-box',
           text:'ver como autorizar a consulta'
         }
       },

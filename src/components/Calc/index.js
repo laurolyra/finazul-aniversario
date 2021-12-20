@@ -27,6 +27,7 @@ const Calc = () => {
   const restart = () => {
     setCurrentSlide(0);
     whiteboardRef.current.slickGoTo(0);
+    window.open("https://www.finazul.com.br/app/emprestimo/registro");
   };
 
   const sendData = () => {
@@ -123,9 +124,9 @@ const Calc = () => {
             <div className="pb-2">
               <button
                 className="btn btn-primary p-2 rounded-3"
-                onClick={() => checkOptions()}
+                onClick={() => currentSlide >=1 ? restart() : checkOptions()}
               >
-                <strong>{currentSlide >= 2 ? "Reiniciar" : "Avançar"}</strong>
+                <strong>{currentSlide >= 1 ? "Simular" : "Avançar"}</strong>
               </button>
             </div>
           </div>

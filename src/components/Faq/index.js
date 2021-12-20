@@ -9,7 +9,7 @@ const Faq = () => (
   <div className="faq-container position-relative py-4" id="faq">
     <div className="container">
       <div className="header-image row justify-content-around align-items-center py-3">
-        <div className="col-md-5 col-6 offset-md-1 p-0">
+        <div className="col-md-5 col-6 offset-md-1">
           <h2>Dúvidas comuns</h2>
           <h3>Todas as respostas para as suas dúvidas você encontra aqui</h3>
         </div>

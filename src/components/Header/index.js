@@ -47,48 +47,34 @@ const Header = () => {
             <i className="fa fa-times"></i>
           )}
         </a>
-        {showOptions && (
-          <ul
-            className={showOptions ? ".navbar-items .navbar-menu.active" : ""}
+      </nav>
+      {showOptions && (
+          <div className="d-flex flex-column justify-content-center">
+            <ul
+            className="navbar-items-mobile navbar-menu.active"
           >
-            <a
-              onClick={() => setShowOptions(false)}
-              className="navbar-links"
-              href="#concept"
-            >
-              O que é?
+           <li>
+            <a href="https://www.finazul.com.br/app/sobre" className="navbar-links">
+            Quem somos
             </a>
-            <a
-              onClick={() => setShowOptions(false)}
-              className="navbar-links"
-              href="#why-contract"
-            >
-              Por que?
+          </li>
+          <li>
+            <a href="https://www.finazul.com.br/app/faq" className="navbar-links">
+            Dúvidas comuns
             </a>
+          </li>
+
+          <li>
             <a
-              onClick={() => setShowOptions(false)}
+              href="https://api.whatsapp.com/send?phone=5571992000994&amp;amp;text=Olá, desejo informações sobre empréstimo consignado!&amp;amp;source=&amp;amp;data="
               className="navbar-links"
-              href="#how-to"
-            >
-              Como fazer?
-            </a>
-            <a
-              onClick={() => setShowOptions(false)}
-              className="navbar-links"
-              href="#faq"
-            >
-              Dúvidas?
-            </a>
-            <a
-              onClick={() => setShowOptions(false)}
-              className="navbar-links"
-              href="#contact"
             >
               Atendimento
             </a>
+          </li>
           </ul>
+          </div>
         )}
-      </nav>
     </section>
   );
 };

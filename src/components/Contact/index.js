@@ -6,7 +6,8 @@ const Contact = () => (
     <div className="container">
       <div className="row py-3">
         <h2>Atendimento</h2>
-        <h3>Vem com a gente para esclarecer todas as suas dúvidas</h3>
+        <h3>Fale com a gente para esclarecer 
+todas as suas dúvidas</h3>
       </div>
 
       <div className="row">
