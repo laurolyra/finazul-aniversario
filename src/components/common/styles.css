@@ -24,6 +24,7 @@
 
 .topic h3 {
   font-weight: 700;
+  font-size: 24px;
 }
 
 .dropdown-box {
@@ -36,6 +37,10 @@
 .dropdown-box h2 {
   font-size: 20px;
   font-weight: 700;
+}
+
+.dropdown-box i {
+  color: #0094d9
 }
 
 .dropdown-box .question-box h3 {
@@ -56,6 +61,6 @@
 
 @media only screen and (min-width: 768px) {
   .dropdown-box h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }

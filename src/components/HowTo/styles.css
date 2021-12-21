@@ -3,22 +3,26 @@
 }
 
 .how-to-container h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .previous-text {
   color: #2e3266;
   font-weight: 700;
-  font-size: 50px;
 }
 
 .how-to-container .video-container h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #4e4f50;
   font-weight: 600;
   font-family: "Open Sans";
   text-align: center;
 }
+
+.instructions h3 {
+  font-size: 20px;
+}
+
 
 .shadow-box {
   border-radius: 20px;
@@ -40,7 +44,7 @@
 }
 
 .brand-block h2 {
-  font-size: 32px;
+  font-size: 28px;
   color: #0580b7;
   font-weight: 700;
 }
@@ -48,7 +52,6 @@
 .brand-block h4 {
   font-size: 18px;
   color: #2e3266;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -105,9 +108,6 @@
     min-height: 32rem;
   }
   .image-line img {
-    height: 6rem;
-  }
-  .brand-block h4 {
-    font-size: 24px;
+    height: 5rem;
   }
 }

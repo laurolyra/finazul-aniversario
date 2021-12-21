@@ -22,6 +22,7 @@ const HowTo = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    speed: 200,
   };
 
   const sliderRef = useRef();

@@ -4,7 +4,7 @@
 }
 
 .calc-container h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -13,15 +13,15 @@
 }
 
 .calc-container h4 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .calc-container p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .input-container p, .input-container input::placeholder {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -41,7 +41,7 @@
 .input-container, .input-container input {
   font-weight: 800;
   background-color: #ebebf0;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0;
   border: none;
 }

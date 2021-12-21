@@ -10,32 +10,28 @@ const Contact = () => (
 todas as suas dúvidas</h3>
       </div>
 
-      <div className="row">
-        <div className="col-11 col-md-7 m-auto pb-4">
-          <div className="row whatsapp-box align-items-center">
-            <div className="col-7 p-3">
-              <h4 className="m-0">
-                Nosso time está sempre disponível no <strong>Whatsapp </strong>
-                para atender você
-              </h4>
-            </div>
-            <div className="col-5">
-              <button
-                className="p-2 px-3"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/5571992000994?text=Quero%20tirar+d%C3%BAvidas%20do%20empr%C3%A9stimo%20FGTS"
-                  )
-                }
-              >
-                Enviar mensagem
-              </button>
-            </div>
-          </div>
+      <div className="row whatsapp-box align-items-center mb-3">
+        <div className="col-7 py-3">
+          <h4 className="m-0 text-start ps-3">
+            Nosso time está sempre disponível no <strong>Whatsapp </strong>
+            para atender você
+          </h4>
+        </div>
+        <div className="col-5">
+          <button
+            className="p-2 px-3"
+            onClick={() =>
+              window.open(
+                "https://wa.me/5571992000994?text=Quero%20tirar+d%C3%BAvidas%20do%20empr%C3%A9stimo%20FGTS"
+              )
+            }
+          >
+            Enviar mensagem
+          </button>
         </div>
       </div>
 
-      <div className="row text-start">
+      <div className="row text-start disclaimer">
         <p>
           Disponibilidade de crédito adequada à política de concessão das
           Instituições Financeiras Parceiras. Parcelas, prazos, taxa de juros,
