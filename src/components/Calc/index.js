@@ -45,6 +45,11 @@ const Calc = () => {
     setBalance(format);
   };
 
+  const formatDateOfBirth = (value) => {
+    const formatDate = value.replace(/[^\d]/g, "").replace(/(\d{2})(\d{2})(\d{4})/, "$1/$2/$3");
+    setDateOfBirth(formatDate);
+  };
+
   const sendData = () => {
     setCurrentSlide(currentSlide + 1);
     //função adequada para enviar balance e date of birth para a API
@@ -52,7 +57,6 @@ const Calc = () => {
 
   const checkOptions = () => {
     console.log("ok", currentSlide);
-    // if (currentSlide + 1 === 2 ) return sendData();
     if (currentSlide + 1 > 2) return restart();
     return next();
   };
@@ -121,7 +125,7 @@ const Calc = () => {
                     }
                   }}
                   value={dateOfBirth}
-                  onChange={(e) => setDateOfBirth(e.target.value)}
+                  onChange={(e) => formatDateOfBirth(e.target.value)}
                 />
               </div>
               <div>
