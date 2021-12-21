@@ -48,32 +48,32 @@ const HowTo = () => {
                 <div className="col-6 col-md-5">
                   <img
                     src={step01}
-                    className={currentSlide !== 0 && "d-none"}
+                    className={currentSlide !== 0 ? "d-none" : undefined}
                     alt="passo 01"
                   />
                   <img
                     src={step02}
-                    className={currentSlide !== 1 && "d-none"}
+                    className={currentSlide !== 1 ? "d-none" : undefined}
                     alt="passo 02"
                   />
                   <img
                     src={step03}
-                    className={currentSlide !== 2 && "d-none"}
+                    className={currentSlide !== 2 ? "d-none" : undefined}
                     alt="passo 03"
                   />
                   <img
                     src={step04}
-                    className={currentSlide !== 3 && "d-none"}
+                    className={currentSlide !== 3 ? "d-none" : undefined}
                     alt="passo 04"
                   />
                   <img
                     src={step05}
-                    className={currentSlide !== 4 && "d-none"}
+                    className={currentSlide !== 4 ? "d-none" : undefined}
                     alt="passo 05"
                   />
                   <img
                     src={step06}
-                    className={currentSlide !== 5 && "d-none"}
+                    className={currentSlide !== 5 ? "d-none" : undefined}
                     alt="passo 06"
                   />
                 </div>

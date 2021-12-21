@@ -6,7 +6,7 @@ const Calc = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [balance, setBalance] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState("");
-  const [userData, setUserData] = useState({balance: "", dateOfBirth: ""});
+  const [userData, setUserData] = useState({ balance: "", dateOfBirth: "" });
 
   var settings = {
     dots: false,
@@ -28,6 +28,21 @@ const Calc = () => {
     setCurrentSlide(0);
     whiteboardRef.current.slickGoTo(0);
     window.open("https://www.finazul.com.br/app/emprestimo/registro");
+  };
+
+  const formatNumber = (value) => {
+    let format = value;
+    format = format + "";
+    format = parseInt(format.replace(/[\D]+/g, ""));
+    format = format + "";
+    format = format.replace(/([0-9]{2})$/g, ",$1");
+
+    if (format.length > 6) {
+      format = format.replace(/([0-9]{3}),([0-9]{2}$)/g, ".$1,$2");
+    }
+
+    if (format == "NaN") format = "";
+    setBalance(format);
   };
 
   const sendData = () => {
@@ -87,7 +102,7 @@ const Calc = () => {
                       }
                     }}
                     value={balance}
-                    onChange={(e) => setBalance(e.target.value)}
+                    onChange={(e) => formatNumber(e.target.value)}
                   />
                 </div>
               </div>
@@ -117,14 +132,17 @@ const Calc = () => {
                 <h4 className="pb-3">
                   Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
                 </h4>
-                <input className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2" placeholder="R$0,00" />
+                <input
+                  className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2"
+                  placeholder="R$0,00"
+                />
               </div>
             </Slider>
 
             <div className="pb-2">
               <button
                 className="btn btn-primary p-2 rounded-3"
-                onClick={() => currentSlide >=1 ? restart() : checkOptions()}
+                onClick={() => (currentSlide >= 1 ? restart() : checkOptions())}
               >
                 <strong>{currentSlide >= 1 ? "Simular" : "Avançar"}</strong>
               </button>

@@ -48,7 +48,7 @@ const Header = () => {
           )}
         </a>
       </nav>
-      {showOptions && (
+      {showOptions ? (
           <div className="d-flex flex-column justify-content-center">
             <ul
             className="navbar-items-mobile navbar-menu.active"
@@ -74,7 +74,7 @@ const Header = () => {
           </li>
           </ul>
           </div>
-        )}
+        ) : undefined}
     </section>
   );
 };
