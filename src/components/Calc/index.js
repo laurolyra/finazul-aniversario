@@ -27,6 +27,10 @@ const Calc = () => {
   const restart = () => {
     setCurrentSlide(0);
     whiteboardRef.current.slickGoTo(0);
+  };
+
+  const goToForm = () => {
+    restart();
     window.open("https://www.finazul.com.br/app/emprestimo/registro");
   };
 
@@ -57,7 +61,7 @@ const Calc = () => {
 
   const checkOptions = () => {
     console.log("ok", currentSlide);
-    if (currentSlide + 1 > 2) return restart();
+    if (currentSlide + 1 > 2) return goToForm();
     return next();
   };
 
@@ -131,24 +135,28 @@ const Calc = () => {
               <div>
                 {/* Aqui é a refatoração encessária a depender da respota da API */}
                 <h3 className="py-3">
-                  <strong>Slide final</strong>
+                  <strong>Resultado</strong>
                 </h3>
                 <h4 className="pb-3">
-                  Não sabe seu saldo FGTS? <a href="/">Clique aqui.</a>
+                  Você pode antecipar até R$0,00 
                 </h4>
-                <input
-                  className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2"
-                  placeholder="R$0,00"
-                />
               </div>
             </Slider>
 
             <div className="pb-2">
+              { currentSlide >= 2 ? (
+                <button
+                className="btn btn-primary p-2 rounded-3"
+                onClick={() => restart()}
+              >
+                <strong>Outro Valor</strong>
+              </button>) : undefined
+              }
               <button
                 className="btn btn-primary p-2 rounded-3"
-                onClick={() => (currentSlide >= 1 ? restart() : checkOptions())}
+                onClick={() => (currentSlide >= 2 ? goToForm() : checkOptions())}
               >
-                <strong>{currentSlide >= 1 ? "Simular" : "Avançar"}</strong>
+                <strong>{currentSlide >= 2 ? "Simular Já" : "Avançar"}</strong>
               </button>
             </div>
           </div>
