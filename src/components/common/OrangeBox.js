@@ -7,7 +7,7 @@ const OrangeBox = ({ body = true }) => (
     <a
       rel="noreferrer"
       target="_blank"
-      href="https://www.finazul.com.br/app/emprestimo/registro"
+      href="https://finazul.com.br/app/fgts/registro-fgts"
       className="text-decoration-none"
     >
       <div className="py-2 d-flex align-items-center justify-content-center">
