@@ -15,6 +15,7 @@ const Calc = () => {
     slidesToScroll: 1,
     arrows: false,
     swipe: false,
+    speed: 200,
   };
 
   const whiteboardRef = useRef();
@@ -133,7 +134,7 @@ const Calc = () => {
               </div>
             </Slider>
 
-            <div className="pb-2">
+            <div className="pb-2 button-box">
               { currentSlide >= 2 ? (
                 <button
                 className="btn btn-primary p-2 rounded-3"

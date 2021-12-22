@@ -20,7 +20,8 @@
   font-size: 16px;
 }
 
-.input-container p, .input-container input::placeholder {
+.input-container p,
+.input-container input::placeholder {
   font-size: 20px;
   font-weight: 800;
 }
@@ -30,15 +31,17 @@
   border: 1px solid #b4b4b8;
 }
 
-.input-container:focus, .input-container:hover {
+.input-container:focus,
+.input-container:hover {
   border: 1px solid #000000;
 }
 
 .input-container p {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
-.input-container, .input-container input {
+.input-container,
+.input-container input {
   font-weight: 800;
   background-color: #ebebf0;
   font-size: 20px;
@@ -60,5 +63,17 @@
 .white-board button {
   min-width: 6rem;
   background-color: #0580b7;
-  color: #FFFFFF
+  color: #ffffff;
+}
+
+.white-board .button-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 769px) {
+  .white-board .button-box {
+    width: 50%;
+    margin: auto;
+  }
 }
