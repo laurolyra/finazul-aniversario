@@ -49,11 +49,6 @@ const Calc = () => {
     setBalance(format);
   };
 
-  const formatDateOfBirth = (value) => {
-    const formatDate = value.replace(/[^\d]/g, "").replace(/(\d{2})(\d{2})(\d{4})/, "$1/$2/$3");
-    setDateOfBirth(formatDate);
-  };
-
   const sendData = () => {
     setCurrentSlide(currentSlide + 1);
     //função adequada para enviar balance e date of birth para a API
@@ -120,16 +115,11 @@ const Calc = () => {
                 </h3>
                 <input
                   className="col-9 col-md-7 d-flex align-items-baseline justify-content-between input-container m-auto text-center p-2"
-                  placeholder="00/00/0000"
-                  size="10"
-                  maxLength={10}
-                  onKeyPress={(event) => {
-                    if (/([A-z])/.test(event.key)) {
-                      event.preventDefault();
-                    }
-                  }}
+                  placeholder="dd/mm/aaaa"
+                  type="date"
+                  maxLength={8}
                   value={dateOfBirth}
-                  onChange={(e) => formatDateOfBirth(e.target.value)}
+                  onChange={(e) => setDateOfBirth(e.target.value)}
                 />
               </div>
               <div>
@@ -138,7 +128,7 @@ const Calc = () => {
                   <strong>Resultado</strong>
                 </h3>
                 <h4 className="pb-3">
-                  Você pode antecipar até R$0,00 
+                  Você pode antecipar até R$0.000,00 
                 </h4>
               </div>
             </Slider>
